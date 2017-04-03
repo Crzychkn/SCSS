@@ -1,0 +1,18 @@
+// Header SCSS
+
+#header {
+
+    nav {
+    	float: right;
+
+    	li {
+    		float: left;
+    		list-style: none;
+ 			@include navbar;
+
+    		&:last-child {
+    			border-right: none;
+    		}
+    	}	
+	}
+}

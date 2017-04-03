@@ -1,0 +1,59 @@
+// Home Page SCSS
+
+.font-body {
+	@include font-body;
+}
+
+#home-page {
+
+	h1 {
+		@include font-title;
+		color: $title;	
+	}
+
+	h2 {
+		@extend .font-body;
+		color: $title;
+	}
+
+	p {
+		@extend .font-body;
+		color: $body;
+	}
+
+}
+
+#banner {
+
+	width: 940px;
+	height: 240px;
+	margin: auto;
+	text-align: center;
+
+	img {
+		width: 400px;
+		height: 220px;
+	}
+}
+
+#thumbnail-container {
+	display: flex;
+}
+
+#thumbnail {
+	@include thumbnail(200px);
+
+	@include setborder (1px);
+
+	img {
+		@include thumbnailimg (200px);
+	}
+}
+
+#faq {
+	@extend #thumbnail-container;
+
+	p {
+		width: 90%;
+	}
+}

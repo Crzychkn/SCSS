@@ -1,0 +1,70 @@
+#header nav {
+  float: right; }
+  #header nav li {
+    float: left;
+    list-style: none;
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #000;
+    color: #997B07;
+    font-family: Arvo, serif; }
+    #header nav li:last-child {
+      border-right: none; }
+
+#footer {
+  margin: auto; }
+  #footer nav {
+    text-align: center;
+    margin-top: 50px; }
+    #footer nav li {
+      display: inline;
+      list-style: none;
+      padding-right: 10px;
+      padding-left: 10px;
+      border-right: 1px solid #000;
+      color: #997B07;
+      font-family: Arvo, serif; }
+      #footer nav li:last-child {
+        border-right: none; }
+
+.font-body, #home-page h2, #home-page p {
+  font-family: Arvo, serif;
+  font-weight: 400; }
+
+#home-page h1 {
+  font-family: Arvo, serif;
+  font-weight: 700;
+  color: black; }
+#home-page h2 {
+  color: black; }
+#home-page p {
+  color: grey; }
+
+#banner {
+  width: 940px;
+  height: 240px;
+  margin: auto;
+  text-align: center; }
+  #banner img {
+    width: 400px;
+    height: 220px; }
+
+#thumbnail-container, #faq {
+  display: flex; }
+
+#thumbnail {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 1;
+  border: 1px solid black; }
+  #thumbnail img {
+    width: 200px;
+    height: 200px; }
+
+#faq p {
+  width: 90%; }
+
+/*# sourceMappingURL=main.css.map */
